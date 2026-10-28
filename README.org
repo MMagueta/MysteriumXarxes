@@ -10,7 +10,7 @@ proprietary software still.
 
 * Packages
 
-- =discord=: Discord's proprietary desktop client for x86_64 Linux.
+None at the moment.
 
 * Add The Channel
 
@@ -31,8 +31,5 @@ Then run:
 
 #+BEGIN_SRC sh
 guix pull
-guix install discord
+guix install <package>
 #+END_SRC
-
-The Discord package definition follows the stable Linux source
-versions pinned by Nixpkgs.
