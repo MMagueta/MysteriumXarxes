@@ -1,12 +1,9 @@
-#+TITLE: Evil Guix Channel
+#+TITLE: Mysterium Xarxes
 
-This channel contains, unfortunately, proprietary software that cannot
-be included in GNU Guix. Package modules live under the =evil=
-namespace.
+A personal Guix channel for free software that is not (yet) in GNU Guix.
+Package modules live under the =xarxes= namespace.
 
-While I do not personally endorse proprietary software, and encourage
-you to appeal to Libre Software, there is the unfortunate need for
-proprietary software still.
+It used to be called EvilGuix, back when it carried proprietary software.
 
 * Packages
 
@@ -18,8 +15,8 @@ Add this channel to =~/.config/guix/channels.scm=:
 
 #+BEGIN_SRC scheme
 (channel
- (name 'evilguix)
- (url "https://github.com/MMagueta/EvilGuix")
+ (name 'mysterium-xarxes)
+ (url "https://github.com/MMagueta/MysteriumXarxes")
  (introduction
   (make-channel-introduction
    "419be71729183b5685df0c33d63731cd512edc57"
